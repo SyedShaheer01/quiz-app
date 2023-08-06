@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="style">
+        <span id="timer"></span>
+    <p id="quiz"></p>
+    <div id="wrap">
+        <div>
+            <label >
+                <input onclick="enableBtn()" type="radio"  value="1" name="answer" class="circle">
+                <span id="option1"></span>
+            </label>
+        </div>
+        <div>
+            <label>
+                <input onclick="enableBtn()" type="radio" value="2" name="answer" class="circle">
+                <span id="option2"></span>
+            </label>
+        </div>
+        <div>
+            <label>
+                <input onclick="enableBtn()" type="radio" value="3" name="answer" class="circle">
+                <span id="option3"></span>
+            </label>
+        </div>
+    </div>
+
+    <button disabled id="btn" onclick="nextQuestion()">next</button>
+    <h3 id="marks"></h3>
+    <h3 id="pass"></h3>
+        
+
+    </div>
+</body>
+<script src="./app.js"></script>
+
+</html>
